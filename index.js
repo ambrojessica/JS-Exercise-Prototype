@@ -108,10 +108,10 @@ Baby.prototype.play = function (){
 /* 
   TASK 4
   In your own words explain the four principles for the "this" keyword below:
-  1. 
-  2. 
-  3. 
-  4. 
+  1. One of the first principles for the "this" keyword is window binding, we are not supposed to be using window binding however if the other rules do not apply then you would refer to the window binding but then you would get undefined as answer.
+  2. The next one is implicit binding, this is mainly used especially with objects and methods. One thing to note is that whatever is to the left of the period that is what "this" refers to.
+  3. The other principle is explicit binding, within this there are three methods you can use; call, apply and bind. Call in explicit binding will pass in your arguments one by one and this makes the function get invoked right away. Apply will also invoke the function right away, however, instead of passing the argument one by one this will instead pass it as an array. The last one is binding, this does not invoke it right away so it passes in your arguments one by one, and gives you a new function then you are able to invoke the function later.
+  4. The last principle is called new binding, is when you create a new object by using a new keyword then "this" will refer to that new object. You are able to invoke the function in the constructor function.
 */
 
 
